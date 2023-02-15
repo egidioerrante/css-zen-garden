@@ -1,27 +1,23 @@
-/* last content div padding bottom */
-.main > div:nth-last-child(2){
-    border-radius: 0 0 2em 0;
-    margin-bottom: 10px;
+html {
+    margin: unset;
+}
+body {
+    font-family: 'Zeyada', cursive;
+    font-size: xx-large;
+    background-image: url("images/AdobeStock_79997387_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
-.main div{
-    margin-top: -20px;
-    margin-left: 0;
+h1 {
+    color: #708C78;
+
+
+}
+h2{
+    color:#8C7E7E;
 }
 
-div h3 {
-    font-family: "Zen Loop", cursive;
-    font-size: 3em;
-    margin-bottom: .1em;
-}
 
-/* custom
-/* first letter of each p after h3 */
-.main h3 + p::first-letter {
-    text-transform: capitalize;
-    font-family: "Zen Loop", cursive;
-    font-style: italic;
-    color: var(--dark-color);
-    font-size: 3.6em;
-    margin: 0 5px 5px 0;
-}
